@@ -14,10 +14,11 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 
 .hero {
-  border: 15px solid #154734; /* dark green */
-  box-shadow: 0 0 0 4px gold; /* gold highlight around the border */
-  border-radius: 4px;
+  border: 15px solid #154734;
+  box-shadow: 0 0 0 4px gold;
+  border-radius: 12px;
   background-color: #154734;
+  overflow: hidden; /* 🔑 This clips inner content to match the radius */
 }
 
 
