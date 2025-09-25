@@ -14,11 +14,14 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 
 .hero {
+  background: url("../img/hero-min.jpg") center center / cover no-repeat;
   border: 15px solid #154734;
   box-shadow: 0 0 0 4px gold;
-  border-radius: 4px;
-  background: url("../img/hero-min.jpg") center center / cover no-repeat;
+  border-radius: 12px;
   overflow: hidden;
+  min-height: 750px; /* ensures the background is visible */
+  position: relative;
+  z-index: 1;
 }
 .hero .container {
   border-radius: 12px;
