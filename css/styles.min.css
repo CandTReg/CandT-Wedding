@@ -14,8 +14,10 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 
 .hero {
-  border: 20px solid #154734; /* dark green */
-  box-shadow: 10px solid gold;
+  border: 15px solid #154734; /* dark green */
+  box-shadow: 0 0 0 4px gold; /* gold highlight around the border */
   border-radius: 4px;
   background-color: #154734;
 }
+
+
