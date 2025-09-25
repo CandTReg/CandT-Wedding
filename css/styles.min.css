@@ -21,5 +21,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   border-radius: 12px;
   overflow: hidden;
 }
-
-
+.hero .container {
+  border-radius: 12px;
+  overflow: hidden;
+}
