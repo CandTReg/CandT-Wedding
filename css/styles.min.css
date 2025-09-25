@@ -15,6 +15,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 .hero {
   background: url("../img/hero-min.jpg") center center / cover no-repeat;
+  background-color: red;
   border: 15px solid #154734;
   box-shadow: 0 0 0 4px gold;
   border-radius: 12px;
