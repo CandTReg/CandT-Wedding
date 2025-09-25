@@ -12,6 +12,6 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 .hero {
   border: 20px solid #154734; /* dark green */
   box-shadow: 5px solid gold;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: #154734;
 }
