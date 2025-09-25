@@ -7,11 +7,12 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 .hero-wrapper {
   background-color: #154734;
   border-radius: 12px;
+  padding: 20px; /* creates space inside the wrapper */
 }
 
 .hero {
   border: 20px solid #154734; /* dark green */
-  box-shadow: 5px solid gold;
+  box-shadow: 10px solid gold;
   border-radius: 4px;
   background-color: #154734;
 }
