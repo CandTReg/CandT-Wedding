@@ -36,8 +36,8 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 .hero-logo {
   margin-top: -145px;
-  width: 60%;
-  max-width: 100px;
+  width: 300px;         /* fixed width you can adjust */
+  max-width: 100%;      /* allows it to shrink on smaller screens */
   height: auto;
   display: block;
   margin-left: auto;
