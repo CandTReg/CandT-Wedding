@@ -28,8 +28,9 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   border:           var(--hero-frame-width)  solid var(--hero-frame-color);
   border-radius:    var(--hero-frame-radius);
   box-shadow:       0 0 0 var(--hero-highlight-spread) var(--hero-highlight-color);
-  background:       url("../img/hero-min.jpg") center/cover no-repeat;
   min-height:       750px;
-}
 
+  /* ← here is where the BG belongs: */
+  background: url("../img/hero-min.jpg") center center / cover no-repeat;
+}
 
