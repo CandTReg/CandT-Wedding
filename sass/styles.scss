@@ -265,16 +265,19 @@ Hero
   border-radius: 12px;
   overflow: hidden;
   min-height: 750px;
+  object-fit: cover;
   }
 
   .hero-bg-img {
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;     // ← this shows the full image without cropping
   z-index: -1;
   border-radius: inherit;
-  }
+}
 
   /*.rsvp-btn {
     position: absolute;
