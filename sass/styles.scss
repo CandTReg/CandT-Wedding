@@ -251,21 +251,13 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  background: url('../img/hero-min.jpg') center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  position: relative;
+  background: url('../img/hero-min.jpg') center center / cover no-repeat;
   border-radius: 12px;
   overflow: hidden;
   min-height: 500px;
-  object-fit: cover;
-  }
-
+  border: 15px solid #154734;
+  box-shadow: 0 0 0 4px gold;
+}
   .hero-bg-img {
   position: absolute;
   top: 0;
