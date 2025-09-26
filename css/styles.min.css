@@ -17,30 +17,37 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   --hero-highlight-spread:  4px;       /* thickness of gold highlight */
 }
 
-/* Outer frame wrapper */
+:root {
+  --hero-frame-color:       #154734;
+  --hero-frame-width:       15px;
+  --hero-frame-radius:      12px;
+  --hero-frame-padding:     20px;
+  --hero-highlight-color:   gold;
+  --hero-highlight-spread:  4px;
+}
+
+/*  Outer green wrapper */
 .hero-outer {
   background-color: var(--hero-frame-color);
   border-radius:    var(--hero-frame-radius);
   padding:          var(--hero-frame-padding);
 }
 
-/* Inner hero section with background image and highlight */
+/*  Middle layer (optional padding or layout tweaks) */
 .hero-inner {
-  position:         relative;
-  overflow:         hidden;
-  border:           var(--hero-frame-width) solid var(--hero-frame-color);
+  background-color: transparent;
   border-radius:    var(--hero-frame-radius);
-  box-shadow:       0 0 0 var(--hero-highlight-spread) var(--hero-highlight-color);
-  background:       url("../img/hero-min.jpg") center center / cover no-repeat;
-  min-height:       750px;
+  padding:          0;
 }
-.hero-logo {
-  margin-top: -145px;
-  width: 300px;         /* fixed width you can adjust */
-  max-width: 100%;      /* allows it to shrink on smaller screens */
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+/*  Actual hero section with image, border, and highlight */
+.hero {
+  position:      relative;
+  overflow:      hidden;
+  border:        var(--hero-frame-width) solid var(--hero-frame-color);
+  border-radius: var(--hero-frame-radius);
+  box-shadow:    0 0 0 var(--hero-highlight-spread) var(--hero-highlight-color);
+  background:    url("../img/hero-min.jpg") center center / cover no-repeat;
+  min-height:    750px;
 }
 
