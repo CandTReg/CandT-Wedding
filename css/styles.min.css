@@ -14,17 +14,18 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 
 .hero {
-  background: url("../img/hero-min.jpg") center center / cover no-repeat;
-  background-color: green;
-  border: 15px solid #154734;
-  box-shadow: 0 0 0 4px gold;
-  border-radius: 12px;
+  /* padding becomes your “outer frame” thickness */
+  padding: var(--hero-frame-padding);
+
+  /* green edge */
+  border: var(--hero-frame-width) solid var(--hero-frame-color);
+  border-radius: var(--hero-frame-radius);
+  background: url("../img/hero-min.jpg") center/cover no-repeat;
+
+  /* gold highlight */
+  box-shadow: 0 0 0 var(--hero-highlight-spread) var(--hero-highlight-color);
   overflow: hidden;
-  min-height: 750px; /* ensures the background is visible */
-  position: relative;
-  z-index: 1;
+  min-height: 750px;
 }
-.hero .container {
-  border-radius: 12px;
-  overflow: hidden;
-}
+
+
