@@ -78,6 +78,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   object-position: center;
   -webkit-user-drag: none;
   pointer-events: none;
+  border-radius: inherit;
 }
 
 /* border overlays sit above the image but below content */
