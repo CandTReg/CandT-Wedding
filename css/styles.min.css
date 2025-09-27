@@ -132,11 +132,9 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 /* --- Top Border --- */
 .border.top {
-  top: 0;
-  left: 0;
-  right: 0;
-  height: var(--top-total);
+  display: none !important;
 }
+
 
 .border.top .layer.outer {
   position: absolute;
