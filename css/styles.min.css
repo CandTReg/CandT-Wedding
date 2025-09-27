@@ -90,7 +90,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 .hero-content {
   position: absolute;
-  top: 10px; /* fixed pixel position from top */
+  top: 5%; /* fixed pixel position from top */
   left: 50%;
   transform: translateX(-50%); /* only center horizontally */
   z-index: 2;
