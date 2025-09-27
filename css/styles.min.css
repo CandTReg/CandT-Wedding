@@ -84,18 +84,18 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 .hero-content {
   position: absolute;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  top: 100px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
+  text-align: center;
 }
 
 .hero-content img {
-  height: 350px;
-  width: auto;
+  height: 350px; /* or any fixed height you like */
+  width: auto;   /* prevents squishing */
 }
+
 
 
 /* Move RSVP button higher */
