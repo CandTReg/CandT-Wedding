@@ -94,10 +94,23 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
     transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
-
+    
     img {
-      max-width: 90%;
+      max-width: 110%;
       height: auto;
     }
+  }
+  hero-content .rsvp-btn {
+  margin-top: 10px;
+  /* Or use position: relative; top: -10px; */
+  }
+
+  .down-arrow {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #fff;
   }
 }
