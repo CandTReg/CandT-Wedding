@@ -100,9 +100,14 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
     max-width: 350px; /* or larger, like 500px */
     width: 100%;      /* optional: ensures responsiveness */
     height: auto
+    top: 50%
     }
 
-  
+    @media (max-width: 768px) {
+    .hero .hero-content {
+      top: 30%; /* Move it a bit lower on small screens */
+    }
+    
   
  .hero-rsvp .rsvp-btn {
     position: absolute;
