@@ -90,7 +90,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 .hero-content {
   position: absolute;
-  top: 20%; /* Change this to move image up/down */
+  top: 15%; /* Change this to move image up/down */
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
