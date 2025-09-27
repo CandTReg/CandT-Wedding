@@ -99,8 +99,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
     .hero-content img {
     max-width: 350px; /* or larger, like 500px */
     width: 100%;      /* optional: ensures responsiveness */
-    position: absolute;
-    top: 5%;
+    height: auto
     }
 
   
