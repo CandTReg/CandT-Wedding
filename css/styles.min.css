@@ -96,7 +96,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
     text-align: center;
     
     img {
-      max-width: 300%;
+      max-width: 100%;
       height: auto;
     }
   }
