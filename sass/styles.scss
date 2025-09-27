@@ -252,8 +252,11 @@ Hero
 ========================================================================== */
 .hero {
   position: relative;
-  height: 100vh; // or fixed like 750px if you prefer
+  padding: 0; //  Remove green padding causing the “chin”
+  background-color: var(--hero-green);
+  border-radius: var(--hero-radius);
   overflow: hidden;
+  height: 750px; //  Fixed height, adjust as needed
 
   .hero-inner {
     width: 100%;
@@ -272,13 +275,11 @@ Hero
 
   .hero-content {
     position: absolute;
+    top: 30%; //  Adjust this for vertical placement
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
     text-align: center;
-
-    // ✅ Vertical positioning control here
-    top: 30%; // Change this value to move image up/down
 
     img {
       width: auto;
