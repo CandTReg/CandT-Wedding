@@ -99,7 +99,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 .hero-content img {
   max-width: 550px; /* Adjust size here */
-  width: 100%;
+  /*width: 100%;*/
   height: auto;
 }
 
