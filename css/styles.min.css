@@ -46,6 +46,13 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   --bottom-total: calc(var(--bottom-outer) + var(--bottom-gold) + var(--bottom-inner));
   --left-total: calc(var(--left-outer) + var(--left-gold) + var(--left-inner));
 }
+:root {
+  --inner-radius-top-left: clamp(0px, calc(var(--hero-radius) - var(--left-total) - var(--top-total)), var(--hero-radius));
+  --inner-radius-top-right: clamp(0px, calc(var(--hero-radius) - var(--right-total) - var(--top-total)), var(--hero-radius));
+  --inner-radius-bottom-right: clamp(0px, calc(var(--hero-radius) - var(--right-total) - var(--bottom-total)), var(--hero-radius));
+  --inner-radius-bottom-left: clamp(0px, calc(var(--hero-radius) - var(--left-total) - var(--bottom-total)), var(--hero-radius));
+}
+
 
 /* hero root */
 .hero{
@@ -57,16 +64,16 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 
 /* new: clipped inner area that matches the inner edge created by the layered borders */
-.hero-inner{
+.hero-inner {
   position: absolute;
   inset: var(--top-total) var(--right-total) var(--bottom-total) var(--left-total);
   overflow: hidden;
-  z-index: 1; /* image (1) -> borders (2) -> content (3) */
+  z-index: 1;
   background: transparent;
-  border-top-left-radius: clamp(0px, calc(var(--hero-radius) - var(--left-total)), var(--hero-radius));
-  border-top-right-radius: clamp(0px, calc(var(--hero-radius) - var(--right-total)), var(--hero-radius));
-  border-bottom-right-radius: clamp(0px, calc(var(--hero-radius) - var(--right-total)), var(--hero-radius));
-  border-bottom-left-radius: clamp(0px, calc(var(--hero-radius) - var(--left-total)), var(--hero-radius));
+  border-top-left-radius: var(--inner-radius-top-left);
+  border-top-right-radius: var(--inner-radius-top-right);
+  border-bottom-right-radius: var(--inner-radius-bottom-right);
+  border-bottom-left-radius: var(--inner-radius-bottom-left);
 }
 
 /* background image now fills the clipped inner area */
