@@ -52,7 +52,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   position: relative;
   border-radius: var(--hero-radius);
   overflow: hidden;
-  min-height: 500px;                 /* tweak as needed */
+  min-height: 750px;                 /* tweak as needed */
   background-color: var(--green);    /* shows while image loads */
 }
 
