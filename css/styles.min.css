@@ -50,245 +50,31 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 /* ========== Root Variables ========== */
 :root {
-  /* Colors */
-  --green: #154734;
-  --gold: gold;
-
-  /* Hero radius */
-  --hero-radius: 50px;
-
-  /* Border layer thicknesses */
-  --top-outer: 20px;
-  --top-gold: 5px;
-  --top-inner: 5px;
-
-  --right-outer: 20px;
-  --right-gold: 0px;
-  --right-inner: 0px;
-
-  --bottom-outer: 20px;
-  --bottom-gold: 5px;
-  --bottom-inner: 5px;
-
-  --left-outer: 20px;
-  --left-gold: 0px;
-  --left-inner: 0px;
-
-  /* Total thickness per side */
-  --top-total: calc(var(--top-outer) + var(--top-gold) + var(--top-inner));
-  --right-total: calc(var(--right-outer) + var(--right-gold) + var(--right-inner));
-  --bottom-total: calc(var(--bottom-outer) + var(--bottom-gold) + var(--bottom-inner));
-  --left-total: calc(var(--left-outer) + var(--left-gold) + var(--left-inner));
-
-  /* Inner corner radius calculations */
-  --inner-radius-top-left: clamp(0px, calc(var(--hero-radius) - var(--left-total) - var(--top-total)), var(--hero-radius));
-  --inner-radius-top-right: clamp(0px, calc(var(--hero-radius) - var(--right-total) - var(--top-total)), var(--hero-radius));
-  --inner-radius-bottom-right: clamp(0px, calc(var(--hero-radius) - var(--right-total) - var(--bottom-total)), var(--hero-radius));
-  --inner-radius-bottom-left: clamp(0px, calc(var(--hero-radius) - var(--left-total) - var(--bottom-total)), var(--hero-radius));
+  --hero-radius: 60px;
+  --hero-border: 20px;
+  --hero-green: #154734;
 }
 
-/* ========== Hero Section ========== */
+/* === Clean Hero === */
 .hero {
   position: relative;
+  padding: var(--hero-border);
+  background-color: var(--hero-green);
   border-radius: var(--hero-radius);
   overflow: hidden;
-  min-height: 750px;
-  background-color: var(--green);
 }
 
 .hero-inner {
-  border-radius: 20px !important;
-  outline: 5px solid red;
+  border-radius: calc(var(--hero-radius) - var(--hero-border));
   overflow: hidden;
 }
-
 
 .hero-img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
-  pointer-events: none;
-  -webkit-user-drag: none;
-  flex: 1 1 auto;
-  min-width: 0;
-  min-height: 0;
-  border-top-left-radius: var(--inner-radius-top-left);
-  border-top-right-radius: var(--inner-radius-top-right);
-  border-bottom-right-radius: var(--inner-radius-bottom-right);
-  border-bottom-left-radius: var(--inner-radius-bottom-left);
-  outline: 3px dashed blue; /* for debugging only */
+  border-radius: inherit;
 }
 
-
-
-/* ========== Border Layers ========== */
-.border {
-  position: absolute;
-  z-index: 2;
-  pointer-events: none;
-}
-
-/* --- Top Border --- */
-.border.top {
-  display: none !important;
-}
-
-
-.border.top .layer.outer {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: var(--top-outer);
-  background: var(--green);
-  border-top-left-radius: var(--hero-radius);
-  border-top-right-radius: var(--hero-radius);
-}
-
-.border.top .layer.gold {
-  position: absolute;
-  top: var(--top-outer); left: 0; right: 0;
-  height: var(--top-gold);
-  background: var(--gold);
-}
-
-.border.top .layer.inner {
-  position: absolute;
-  top: calc(var(--top-outer) + var(--top-gold));
-  left: 0; right: 0;
-  height: var(--top-inner);
-  background: var(--green);
-  border-bottom-left-radius: calc(var(--hero-radius) - (var(--top-outer) + var(--top-gold)));
-  border-bottom-right-radius: calc(var(--hero-radius) - (var(--top-outer) + var(--top-gold)));
-}
-
-/* --- Bottom Border --- */
-.border.bottom {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: var(--bottom-total);
-}
-
-.border.bottom .layer.outer {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: var(--bottom-outer);
-  background: var(--green);
-  border-bottom-left-radius: var(--hero-radius);
-  border-bottom-right-radius: var(--hero-radius);
-}
-
-.border.bottom .layer.gold {
-  position: absolute;
-  bottom: var(--bottom-outer); left: 0; right: 0;
-  height: var(--bottom-gold);
-  background: var(--gold);
-}
-
-.border.bottom .layer.inner {
-  position: absolute;
-  bottom: calc(var(--bottom-outer) + var(--bottom-gold));
-  left: 0; right: 0;
-  height: var(--bottom-inner);
-  background: var(--green);
-  border-top-left-radius: calc(var(--hero-radius) - (var(--bottom-outer) + var(--bottom-gold)));
-  border-top-right-radius: calc(var(--hero-radius) - (var(--bottom-outer) + var(--bottom-gold)));
-}
-
-/* --- Left Border --- */
-.border.left {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: var(--left-total);
-}
-
-.border.left .layer.outer {
-  position: absolute;
-  top: 0; bottom: 0; left: 0;
-  width: var(--left-outer);
-  background: var(--green);
-  border-top-left-radius: var(--hero-radius);
-  border-bottom-left-radius: var(--hero-radius);
-}
-
-.border.left .layer.gold {
-  position: absolute;
-  top: 0; bottom: 0;
-  left: var(--left-outer);
-  width: var(--left-gold);
-  background: var(--gold);
-}
-
-.border.left .layer.inner {
-  position: absolute;
-  top: 0; bottom: 0;
-  left: calc(var(--left-outer) + var(--left-gold));
-  width: var(--left-inner);
-  background: var(--green);
-  border-top-right-radius: calc(var(--hero-radius) - (var(--left-outer) + var(--left-gold)));
-  border-bottom-right-radius: calc(var(--hero-radius) - (var(--left-outer) + var(--left-gold)));
-}
-
-/* --- Right Border --- */
-.border.right {
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: var(--right-total);
-}
-
-.border.right .layer.outer {
-  position: absolute;
-  top: 0; bottom: 0; right: 0;
-  width: var(--right-outer);
-  background: var(--green);
-  border-top-right-radius: var(--hero-radius);
-  border-bottom-right-radius: var(--hero-radius);
-}
-
-.border.right .layer.gold {
-  position: absolute;
-  top: 0; bottom: 0;
-  right: var(--right-outer);
-  width: var(--right-gold);
-  background: var(--gold);
-}
-
-.border.right .layer.inner {
-  position: absolute;
-  top: 0; bottom: 0;
-  right: calc(var(--right-outer) + var(--right-gold));
-  width: var(--right-inner);
-  background: var(--green);
-  border-top-left-radius: calc(var(--hero-radius) - (var(--right-outer) + var(--right-gold)));
-  border-bottom-left-radius: calc(var(--hero-radius) - (var(--right-outer) + var(--right-gold)));
-}
-
-/* ========== Content Layers ========== */
-.container,
-.hero-content,
-.down-arrow {
-  position: relative;
-  z-index: 3;
-}
-
-/* ========== Logo and Arrow ========== */
-.hero-logo {
-  width: 300px;
-  max-width: 60%;
-  height: auto;
-  margin: -145px auto 0;
-  display: block;
-}
-
-.down-arrow {
-  z-index: 3;
-  color: #fff;
-  font-size: 30px;
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-}
