@@ -90,18 +90,19 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 .hero-content {
   position: absolute;
-  top: 5%; /* fixed pixel position from top */
-  left: 50%;
-  transform: translateX(-50%); /* only center horizontally */
+  top: 100px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   z-index: 2;
-  text-align: center;
 }
 
 .hero-content img {
-  max-width: 550px; /* Adjust size here */
-  /*width: 100%;*/
-  height: auto;
+  height: 350px;
+  width: auto;
 }
+
 
 /* Move RSVP button higher */
 .rsvp-btn {
