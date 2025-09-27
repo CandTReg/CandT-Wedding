@@ -97,17 +97,11 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 
 .hero-inner {
-  position: absolute;
-  inset: var(--top-total) var(--right-total) var(--bottom-total) var(--left-total);
+  border-radius: 60px !important;
+  outline: 5px solid red;
   overflow: hidden;
-  z-index: 1;
-  background: transparent;
-  border-top-left-radius: var(--inner-radius-top-left);
-  border-top-right-radius: var(--inner-radius-top-right);
-  border-bottom-right-radius: var(--inner-radius-bottom-right);
-  border-bottom-left-radius: var(--inner-radius-bottom-left);
-  display: flex;
 }
+
 
 .hero-img {
   display: block;
