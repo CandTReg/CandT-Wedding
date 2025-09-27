@@ -76,10 +76,11 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   height: 100%;
   object-fit: cover;
   object-position: center;
-  -webkit-user-drag: none;
   pointer-events: none;
-  border-radius: inherit;
+  -webkit-user-drag: none;
+  border-radius: inherit; /* keeps corners rounded */
 }
+
 
 /* ========== Border Layers ========== */
 .border {
