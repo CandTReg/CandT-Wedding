@@ -101,7 +101,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
     }
   }
   
- .hero-content .rsvp-btn {
+ .hero-rsvp .rsvp-btn {
     position: absolute;
     bottom: 15%;
     left: 50%;
