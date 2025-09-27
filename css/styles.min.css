@@ -50,30 +50,54 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 /* ========== Root Variables ========== */
 :root {
-  --hero-radius: 60px;
-  --hero-border: 20px;
+  --hero-radius: 20px;
   --hero-green: #154734;
+  --hero-padding: 20px;
 }
 
-/* === Clean Hero === */
 .hero {
   position: relative;
-  padding: var(--hero-border);
   background-color: var(--hero-green);
   border-radius: var(--hero-radius);
+  padding: var(--hero-padding); /* this creates the green border effect */
+  height: 750px;
+  box-sizing: border-box;
   overflow: hidden;
-}
 
-.hero-inner {
-  border-radius: calc(var(--hero-radius) - var(--hero-border));
-  overflow: hidden;
-}
+  .hero-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+  }
 
-.hero-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
-  border-radius: inherit;
+  .hero-img-container {
+    width: 100%;
+    height: 100%;
+    border-radius: calc(var(--hero-radius) - var(--hero-padding)); // match inner radius
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+
+    img {
+      max-width: 90%;
+      height: auto;
+    }
+  }
 }
