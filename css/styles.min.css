@@ -55,7 +55,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   --gold: gold;
 
   /* Hero radius */
-  --hero-radius: 12px;
+  --hero-radius: 50px;
 
   /* Border layer thicknesses */
   --top-outer: 20px;
