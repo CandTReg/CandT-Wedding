@@ -114,12 +114,6 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   color: #fff;
 }
 
-/* Responsive tweaks */
-@media (max-width: 768px) {
-  .hero-content {
-    top: 30%;
-  }
-
   .rsvp-btn {
     bottom: 60px;
   }
