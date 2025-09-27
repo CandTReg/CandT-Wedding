@@ -100,10 +100,12 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
       height: auto;
     }
   }
-  hero-content .rsvp-btn {
-  margin-top: 10px;
-  /* Or use position: relative; top: -10px; */
+  .rsvp-btn {
+  margin-top: -60px; /* Raise it upward */
+  position: relative;
+  z-index: 3;
   }
+
 
   .down-arrow {   
     position: absolute;
