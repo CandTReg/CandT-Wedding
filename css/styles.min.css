@@ -97,7 +97,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 }
 
 .hero-inner {
-  border-radius: 60px !important;
+  border-radius: 20px !important;
   outline: 5px solid red;
   overflow: hidden;
 }
