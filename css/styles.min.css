@@ -100,10 +100,9 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
       height: auto;
     }
   }
-  .rsvp-btn {
-  margin-top: -80px; /* Raise it upward */
-  left: 50%;
-  z-index: 3;
+  
+ .hero-content .rsvp-btn {
+  margin-top: 20px;
   }
 
 
