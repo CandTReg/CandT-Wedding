@@ -89,7 +89,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
   .hero-content {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
