@@ -95,6 +95,19 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   max-width: 90%;        /* just in case screen is too small */
 }
 
+/* Logo image positioned independently */
+.hero-logo {
+  position: absolute;
+  top: 120px;       /* Adjust vertical position */
+  left: 50%;
+  transform: translateX(-50%);
+  height: 300px;    /* Fixed height to prevent squish */
+  width: auto;
+  max-width: 90%;
+  z-index: 3;
+}
+
+
 /* Move RSVP button higher */
 .rsvp-btn {
   position: absolute;
