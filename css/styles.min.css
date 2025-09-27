@@ -107,7 +107,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
   .down-arrow {   
     position: absolute;
-    bottom: 125px;
+    bottom: 50%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
