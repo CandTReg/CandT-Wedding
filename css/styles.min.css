@@ -19,22 +19,22 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   --hero-radius: 12px;
 
   /* top layer thickness (outer green, gold, inner green) */
-  --top-outer: 10px;
+  --top-outer: 20px;
   --top-gold: 5px;
   --top-inner: 5px;
 
   /* right side thickness (outer green, gold, inner green) */
-  --right-outer: 10px;
+  --right-outer: 20px;
   --right-gold: 0px;
   --right-inner: 0px;
 
   /* bottom side thickness */
-  --bottom-outer: 10px;
+  --bottom-outer: 20px;
   --bottom-gold: 5px;
   --bottom-inner: 5px;
 
   /* left side thickness */
-  --left-outer: 10px;
+  --left-outer: 20px;
   --left-gold: 0px;
   --left-inner: 0px;
 }
