@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <title>Hero Overlay Test</title>
   <style>
-    :root {
-      --hero-radius: 30px;
-      --border: 20px;
-      --inner-radius: calc(var(--hero-radius) - var(--border));
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
     }
+
     .hero {
-      width: 400px;
-      height: 250px;
-      border-radius: var(--hero-radius);
-      overflow: hidden;
-      background: green;
       position: relative;
-      margin: 40px;
+      height: 500px; /* adjust as you like */
+      overflow: hidden;
+      background: #154734;
+      border-radius: 60px;
     }
+
     .hero-inner {
       position: absolute;
-      inset: var(--border);
-      border-top-left-radius: var(--inner-radius);
-      border-top-right-radius: var(--inner-radius);
-      border-bottom-right-radius: var(--inner-radius);
-      border-bottom-left-radius: var(--inner-radius);
+      top: 0; left: 0; right: 0; bottom: 0;
       overflow: hidden;
-      z-index: 1;
-      background: transparent;
+      border-radius: inherit;
     }
-    .hero-inner img {
+
+    .hero-img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: inherit;
       display: block;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+
+    .hero-content img {
+      max-width: 80%;
+      height: auto;
     }
   </style>
 </head>
 <body>
-  <div class="hero">
+  <section class="hero">
     <div class="hero-inner">
-      <img src="https://CandTReg.github.io/CandT-Wedding/img/hero-min.jpg" alt="test">
+      <img class="hero-img" src="https://via.placeholder.com/1200x800" alt="background">
     </div>
-  </div>
+    <div class="hero-content">
+      <img src="https://via.placeholder.com/400x200" alt="overlay">
+    </div>
+  </section>
 </body>
 </html>
+
