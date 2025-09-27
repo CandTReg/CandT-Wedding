@@ -93,7 +93,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   border-radius: var(--hero-radius);
   overflow: hidden;
   min-height: 750px;
-  /*background-color: var(--green);*/
+  background-color: var(--green);
 }
 
 .hero-inner {
