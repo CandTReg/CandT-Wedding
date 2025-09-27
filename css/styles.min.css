@@ -50,41 +50,30 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 /* ========== Root Variables ========== */
 :root {
-  --hero-radius: 20px;
+  --hero-radius: 60px;
   --hero-border: 20px;
   --hero-green: #154734;
 }
 
+/* === Clean Hero === */
 .hero {
   position: relative;
-  height: 750px;
+  padding: var(--hero-border);
+  background-color: var(--hero-green);
+  border-radius: var(--hero-radius);
   overflow: hidden;
-  background-color: #e5f5e0;
 }
 
-.hero .hero-inner {
-  width: 100%;
-  height: 100%;
+.hero-inner {
+  border-radius: calc(var(--hero-radius) - var(--hero-border));
+  overflow: hidden;
 }
 
-.hero .hero-inner .hero-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.hero-img {
   display: block;
-}
-
-.hero .hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  text-align: center;
-}
-
-.hero .hero-content img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
 }
