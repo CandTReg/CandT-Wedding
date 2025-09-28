@@ -123,7 +123,7 @@ bottom: 10px;
 .down-arrow {
   position: relative;
   bottom: 150px; /* Raise from default */
-  left: 50%;
+  left: center;
   transform: translateX(-50%);
   font-size: 30px;
   color: #fff;
