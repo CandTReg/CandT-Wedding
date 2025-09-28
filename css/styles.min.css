@@ -126,12 +126,12 @@ bottom: 10px;
   color: #fff;
 }
 
-.rsvp .rsvp-form .rsvp-btn {
-  margin-top: 100px; /* or any spacing you want */
-  width: 100%;
-  padding: 15px 0;
-  font-size: 13px;
-  border-radius: 3px;
+.rsvp-btn {
+  position: absolute;
+  bottom: 80px; /* Less than before */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
 }
 
 
