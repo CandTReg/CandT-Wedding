@@ -78,10 +78,13 @@ bottom: 10px;
 
 .hero-img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto; /* Allow proportional scaling */
   display: block;
+  object-fit: contain; /* Ensures full image fits without cropping */
+  box-sizing: border-box; /* Includes border/padding in width/height */
+  border-radius: inherit; /* Keep it within rounded corners */
 }
+
 
 .hero-content {
   position: absolute;
