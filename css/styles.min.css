@@ -126,9 +126,15 @@ bottom: 10px;
   color: #fff;
 }
 
-  .rsvp-btn {
-    bottom: 60px;
-  }
+  /* Move RSVP button higher */
+.rsvp-btn {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
 
   .down-arrow {
     bottom: 20px;
