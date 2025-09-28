@@ -53,9 +53,9 @@ bottom: 10px;
 }
 
 :root {
-  --hero-radius: 15px;
+  --hero-radius: 10px;
   --hero-green: #154734;
-  --hero-padding: 75px;
+  --hero-padding: 100px;
 }
 
 .hero {
