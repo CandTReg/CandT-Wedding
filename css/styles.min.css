@@ -89,11 +89,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   text-align: center;
 }
 
-.hero-content img {
-  width: auto;
-  height: 300px;         /* fixed height so it doesn’t squish */
-  max-width: 90%;        /* just in case screen is too small */
-}
+
 
 /* Logo image positioned independently */
 .hero-logo {
