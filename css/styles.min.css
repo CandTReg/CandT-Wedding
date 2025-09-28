@@ -121,8 +121,8 @@ bottom: 10px;
 
 /* Move arrow higher */
 .down-arrow {
-  position: absolute;
-  bottom: 1500px; /* Raise from default */
+  position: relative;
+  bottom: 150px; /* Raise from default */
   left: 50%;
   transform: translateX(-50%);
   font-size: 30px;
