@@ -126,13 +126,12 @@ bottom: 10px;
   color: #fff;
 }
 
-  /* Move RSVP button higher */
-.rsvp-btn {
-  position: absolute;
-  bottom: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 3;
+.rsvp .rsvp-form .rsvp-btn {
+  margin-top: 30px; /* or any spacing you want */
+  width: 100%;
+  padding: 15px 0;
+  font-size: 13px;
+  border-radius: 3px;
 }
 
 
