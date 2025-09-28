@@ -97,7 +97,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
   top: 120px;       /* Adjust vertical position */
   left: 50%;
   transform: translateX(-50%);
-  height: 300px;    /* Fixed height to prevent squish */
+  height: 250px;    /* Fixed height to prevent squish */
   width: auto;
   max-width: 90%;
   z-index: 3;
