@@ -113,7 +113,7 @@ bottom: 10px;
 /* Move RSVP button higher */
 .rsvp-btn {
   position: absolute;
-  bottom: 100px; 
+  bottom: 20px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -122,7 +122,7 @@ bottom: 10px;
 /* Move arrow higher */
 .down-arrow {
   position: absolute;
-  bottom: 50px; /* Raise from default */
+  bottom: 80px; /* Raise from default */
   left: 50%;
   transform: translateX(-50%);
   font-size: 30px;
