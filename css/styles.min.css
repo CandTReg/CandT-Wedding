@@ -53,20 +53,30 @@ bottom: 10px;
 }
 
 :root {
-  --hero-radius: 10px;
+  --hero-radius-top: 40px;       /* Top-left and top-right */
+  --hero-radius-sides: 10px;     /* Middle-left and middle-right */
+  --hero-radius-bottom: 30px;    /* Bottom-left and bottom-right */
   --hero-green: #154734;
   --hero-padding: 100px;
 }
 
+
 .hero {
   position: relative;
   background-color: var(--hero-green);
-  border-radius: var(--hero-radius);
   padding: var(--hero-padding);
   height: 750px;
   box-sizing: border-box;
   overflow: hidden;
+
+  /* Custom 3-variable border radius */
+  border-radius:
+  var(--hero-radius-top) var(--hero-radius-top)      /* top-left, top-right */
+  var(--hero-radius-bottom) var(--hero-radius-bottom) / 
+  var(--hero-radius-sides) var(--hero-radius-sides); /* vertical radii (left, right) */
+
 }
+
 
 .hero-inner {
   position: relative;
