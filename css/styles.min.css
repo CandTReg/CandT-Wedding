@@ -128,7 +128,7 @@ bottom: 10px;
 
 .rsvp-btn {
   position: absolute;
-  bottom: 80px; /* Less than before */
+  bottom: 20px; /* Less than before */
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
