@@ -122,7 +122,7 @@ bottom: 10px;
 /* Move arrow higher */
 .down-arrow {
   position: relative;
-  bottom: 150px; /* Raise from default */
+  bottom: 200px; /* Raise from default */
   left: 50%;
   font-size: 30px;
   color: #fff;
