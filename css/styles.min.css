@@ -121,7 +121,7 @@ bottom: 10px;
 
 .down-arrow {
   position: absolute;
-  bottom: 50px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%); /* This centers it */
   font-size: 30px;
@@ -141,7 +141,4 @@ bottom: 10px;
   z-index: 3;
 }
 
-.rsvp-btn {
-  
-}
 }
