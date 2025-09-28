@@ -53,9 +53,9 @@ bottom: 10px;
 }
 
 :root {
-  --hero-padding-top: 125px;
+  --hero-padding-top: 130px;
   --hero-padding-sides: 40px;
-  --hero-padding-bottom: 60px;
+  --hero-padding-bottom: 250px;
 
   --hero-radius-top: 12px;
   --hero-radius-bottom: 12px;
@@ -127,7 +127,7 @@ bottom: 10px;
 /* Move RSVP button higher */
 .rsvp-btn {
   position: absolute;
-  bottom: 60px; 
+  bottom: 70px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -135,7 +135,7 @@ bottom: 10px;
 
 .down-arrow {
   position: absolute;
-  bottom: 135px;
+  bottom: 145px;
   left: 50%;
   transform: translateX(-50%); /* This centers it */
   font-size: 30px;
