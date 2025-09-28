@@ -121,7 +121,7 @@ bottom: 10px;
 
 .down-arrow {
   position: relative;
-  bottom: 250px;
+  bottom: 300px;
   left: 50%;
   transform: translateX(-50%); /* This centers it */
   font-size: 30px;
