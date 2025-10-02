@@ -52,9 +52,13 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 bottom: 10px;
 }
 
+const viewportWidth = window.innerWidth;
+
+
+
 :root {
   --hero-padding-top: 130px;
-  --hero-padding-sides: 40px;
+  --hero-padding-sides: (viewportWidth*10%)px;
   --hero-padding-bottom: 250px;
 
   --hero-radius-top: 12px;
