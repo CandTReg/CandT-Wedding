@@ -58,7 +58,7 @@ bottom: 10px;
 
 :root {
   --hero-padding-top: 130px;
-  --hero-padding-sides: 3vw;
+  --hero-padding-sides: 3.5vw;
   --hero-padding-bottom: 40px;
 
   --hero-radius-top: 12px;
@@ -71,7 +71,7 @@ bottom: 10px;
 
 .hero-top-border {
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 50%;
   transform: translateX(-50.15%);  /* center horizontally only */
   width: 107vw;
