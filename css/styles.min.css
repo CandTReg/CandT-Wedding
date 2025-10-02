@@ -71,10 +71,10 @@ bottom: 10px;
 
 .hero-top-border {
   position: absolute;
-  top: 60px;
+  top: 50px;
   left: 50%;
-  transform: translateX(-50.25%);  /* center horizontally only */
-  width: 108vw;
+  transform: translateX(-50.15%);  /* center horizontally only */
+  width: 107vw;
   height: auto;
   z-index: 10;
   pointer-events: none; /* So it doesn't interfere with clicks */
@@ -135,7 +135,7 @@ bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   height: auto;    /* Fixed height to prevent squish */
-  width: 80vw;
+  width: 65vw;
   max-width: 90%;
   z-index: 3;
 }
