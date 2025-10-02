@@ -73,7 +73,7 @@ bottom: 10px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 110vw;
   height: auto;
   z-index: 10;
   pointer-events: none; /* So it doesn't interfere with clicks */
