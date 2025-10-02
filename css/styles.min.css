@@ -68,6 +68,18 @@ bottom: 10px;
   --hero-green: #154734;
 }
 
+
+.hero-top-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  pointer-events: none; /* So it doesn't interfere with clicks */
+}
+
+
 .hero {
   position: relative;
   background-color: var(--hero-green);
