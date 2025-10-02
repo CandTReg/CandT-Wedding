@@ -70,7 +70,7 @@ bottom: 10px;
 
 
 .hero-top-border {
-  position: relative;
+  position: absolute;
   top: 40px;
   left: 50%;
   transform: translateX(-50.175%);  /* center horizontally only */
