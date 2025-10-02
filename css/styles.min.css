@@ -134,8 +134,8 @@ bottom: 10px;
   top: 120px;       /* Adjust vertical position */
   left: 50%;
   transform: translateX(-50%);
-  height: 250px;    /* Fixed height to prevent squish */
-  width: auto;
+  height: auto;    /* Fixed height to prevent squish */
+  width: 80vw;
   max-width: 90%;
   z-index: 3;
 }
