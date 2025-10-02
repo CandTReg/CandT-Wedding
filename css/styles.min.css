@@ -71,7 +71,7 @@ bottom: 10px;
 
 .hero-top-border {
   position: absolute;
-  top: 2vw;
+  top: 130px;
   left: 50%;
   transform: translateX(-50.25%);  /* center horizontally only */
   width: 110vw;
