@@ -92,9 +92,10 @@ bottom: 10px;
   /* Custom border-radius */
   border-radius:
     var(--hero-radius-top) var(--hero-radius-top)
-    var(--hero-radius-bottom) var(--hero-radius-bottom)
+    0 0
     /
     var(--hero-radius-sides) var(--hero-radius-sides);
+
 }
 
 
