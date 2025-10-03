@@ -169,7 +169,7 @@ bottom: 10px;
 /* Move RSVP button higher */
 .rsvp-btn {
   position: absolute;
-  bottom: 45vw; 
+  bottom: 80px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -177,7 +177,7 @@ bottom: 10px;
 
 .down-arrow {
   position: absolute;
-  bottom: 43.5vw;
+  bottom: 55px;
   left: 50%;
   transform: translateX(-50%); /* This centers it */
   font-size: 30px;
