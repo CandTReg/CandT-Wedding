@@ -68,7 +68,6 @@ header a{color:#fff;
          text-transform:uppercase;
          font-size:13px
         }
-.rsvp{padding-bottom:18px}
 
 .logo{display:inline-block}header .logo img{
   left:15px;
@@ -225,5 +224,6 @@ header a{color:#fff;
   transform: translateX(-50%);
   z-index: 3;
 }
+.rsvp{padding-bottom:180px}
 
 }
