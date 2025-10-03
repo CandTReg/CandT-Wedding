@@ -75,7 +75,7 @@ bottom: 10px;
   left: 50%;
   transform: translateX(-50.15%);  /* center horizontally only */
   width: 106vw;
-  height: 200px;
+  height: 250px;
   z-index: 10;
   pointer-events: none; /* So it doesn't interfere with clicks */
 }
