@@ -82,6 +82,25 @@ header a{color:#fff;
   transition: all 300ms ease-in-out;
 }
 
+.primary-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.primary-nav li a {
+  display: inline-block;
+  line-height: 1;
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+
+.primary-nav .btn {
+  padding: 8px 15px;
+  margin: 0;
+  line-height: 1;
+}
+
 
 :root {
   --hero-padding-top: 130px;
