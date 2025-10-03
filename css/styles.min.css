@@ -69,7 +69,7 @@ bottom: 10px;
 }
 
 .navigation{
-  padding-top: 10px
+  padding-top: 20px
   transition:all 300ms ease-in-out;
   position:fixed;
   width:100%;
