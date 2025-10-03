@@ -33,7 +33,7 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
     text-transform:uppercase;
     background-color:#e8ca6f}.btn-fill:hover,.btn-fill:focus{color:#fff;
     background-color:#d3b56a;
-    border-color:#d3b56a}.btn-small{padding:8px 25px}.btn-large{padding:15px 40px}.btn-margin-right{margin-right:20px}section.intro,section.features-extra,section.rsvp{background:#fff}section.features,section.events,section.blog{background:#f8f9fd}.group:after{content:"";
+    border-color:#d3b56a}.btn-small{padding:8px 25px}.btn-large{padding:15px 60px}.btn-margin-right{margin-right:20px}section.intro,section.features-extra,section.rsvp{background:#fff}section.features,section.events,section.blog{background:#f8f9fd}.group:after{content:"";
     display:table;
     clear:both}.no-padding{padding:0}.no-margin{margin:0}a{color:#e8ca6f;
     -webkit-transition-timing-function:ease;
