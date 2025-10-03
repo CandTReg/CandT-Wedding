@@ -135,7 +135,7 @@ bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   height: auto;    /* Fixed height to prevent squish */
-  width: 45vw;
+  width: 50vw;
   max-width: 90%;
   z-index: 3;
 }
