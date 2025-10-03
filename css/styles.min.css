@@ -56,7 +56,7 @@ bottom: 10px;
 .logo{display:inline-block}header .logo img{
   left:10px;
   height:45px}
-.navicon{position:absolute;height:26px;right:10px;top:55px;visibility:hidden;transition:all 300ms ease-in-out}
+.navicon{position:absolute;height:26px;right:10px;top:70px;visibility:hidden;transition:all 300ms ease-in-out}
 
 :root {
   --hero-padding-top: 130px;
