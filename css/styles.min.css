@@ -100,10 +100,16 @@ bottom: 10px;
 
 .hero-bottom-fill {
   background-color: var(--hero-green);
-  height: 100px; /* adjust as needed to simulate the border thickness */
-  border-radius: 0 0 var(--hero-radius-bottom) var(--hero-radius-bottom) / 0 0 var(--hero-radius-sides) var(--hero-radius-sides);
-  margin-top: -1px; /* removes visible gap if needed */
+  height: 100px;
+  border-radius:
+    0 0
+    var(--hero-radius-bottom) var(--hero-radius-bottom)
+    /
+    0 0
+    var(--hero-radius-sides) var(--hero-radius-sides);
+  margin-top: -1px; /* Overlap the bottom slightly to hide any gap */
 }
+
 
 
 .hero-inner {
