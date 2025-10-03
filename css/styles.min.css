@@ -71,7 +71,7 @@ bottom: 10px;
 
 .hero-top-border {
   position: absolute;
-  top: .25%;
+  top: .0125%;
   left: 50%;
   transform: translateX(-50.15%);  /* center horizontally only */
   width: 107vw;
@@ -131,7 +131,7 @@ bottom: 10px;
 /* Logo image positioned independently */
 .hero-logo {
   position: absolute;
-  top: 170px;       /* Adjust vertical position */
+  top: 165px;       /* Adjust vertical position */
   left: 50%;
   transform: translateX(-50%);
   height: auto;    /* Fixed height to prevent squish */
