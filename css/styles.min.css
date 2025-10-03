@@ -59,7 +59,7 @@ bottom: 10px;
 :root {
   --hero-padding-top: 130px;
   --hero-padding-sides: 7.5vw;
-  --hero-padding-bottom: 40px;
+  --hero-padding-bottom: 10px;
 
   --hero-radius-top: 12px;
   --hero-radius-bottom: 12px;
