@@ -100,6 +100,11 @@ header a{color:#fff;
 }
 
 .navigation{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+  justify-content: space-between;
   transition:all 300ms ease-in-out;
   position:fixed;
   width:100%;
