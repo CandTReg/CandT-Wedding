@@ -54,6 +54,10 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 bottom: 10px;
 }
 
+.navigation {
+  background-color: #123456; /* Your desired color */
+}
+
 .fixed{
   position:fixed;
   padding: 35px;
