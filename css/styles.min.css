@@ -57,7 +57,7 @@ bottom: 10px;
 
 .fixed{
   position:fixed; 
-  background-color:rgb(250, 214, 165);
+  background-color:rgba(250, 214, 165, 0.88);
   z-index:999;
   width:100%
 }
