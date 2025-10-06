@@ -60,6 +60,13 @@ bottom: 10px;
   background-color:rgba(55,36,40,.88);
   z-index:999;width:100%}
 
+header.fixed {
+  padding: 20px 0; /* smaller padding when fixed */
+}
+header.expanded {
+  padding: 50px 0;
+}
+
 header {
   width: 100%;
   padding: 35px 0;
