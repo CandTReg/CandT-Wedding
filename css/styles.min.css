@@ -72,12 +72,8 @@ header a{color:#fff;
          font-size:13px
         }
 
-header.expanded {
-  padding: 35px 0;
-}
-
-.navigation.expanded {
-  height: 100px;
+.navicon.visible {
+  visibility: visible;
 }
 
 .logo{display:inline-block}header .logo img{
