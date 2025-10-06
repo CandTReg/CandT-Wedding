@@ -54,6 +54,11 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 bottom: 10px;
 }
 
+.fixed{
+  position:fixed;
+  padding: 35px;
+  background-color:rgba(55,36,40,.88);
+  z-index:999;width:100%}
 
 header {
   width: 100%;
