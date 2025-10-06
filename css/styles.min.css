@@ -72,6 +72,14 @@ header a{color:#fff;
          font-size:13px
         }
 
+header.expanded {
+  padding: 35px 0;
+}
+
+.navigation.expanded {
+  height: 100px;
+}
+
 .logo{display:inline-block}header .logo img{
   left:30px;
   height:40px}
