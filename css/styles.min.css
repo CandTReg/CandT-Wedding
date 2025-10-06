@@ -56,13 +56,10 @@ bottom: 10px;
 
 
 .fixed{
-  position:fixed;
-  padding: 30px;
+  position:fixed; 
   background-color:rgb(250, 214, 165);
-  z-index:999;width:100%}
-
-header.fixed {
-  padding: 20px 0; /* smaller padding when fixed */
+  z-index:999;
+  width:100%
 }
 header.expanded {
   padding: 50px 0;
