@@ -77,9 +77,9 @@ header a{color:#fff;
   height:40px}
 .navicon {
   position: absolute;
-  top: 50%;
+  top: 75px;
   right: 10px;
-  transform: translateY(-50%);
+  
   height: 26px;
   visibility: hidden;
   transition: all 300ms ease-in-out;
