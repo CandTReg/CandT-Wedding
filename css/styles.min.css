@@ -65,6 +65,14 @@ header.expanded {
   padding: 50px 0;
 }
 
+.navigation, section.navigation {
+  transition: transform 300ms ease-in-out;
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+}
+
 header {
   width: 100%;
   padding: 35px 0;
