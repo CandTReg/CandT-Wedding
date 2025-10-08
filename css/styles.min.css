@@ -201,7 +201,7 @@ header a{color:#fff;
   left: 50%;
   transform: translateX(-50%);
   height: auto;    /* Fixed height to prevent squish */
-  width: 60vw;
+  width: 70vw;
   max-width: 90%;
   z-index: 3;
 }
