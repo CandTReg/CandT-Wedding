@@ -185,7 +185,7 @@ header a{color:#fff;
 
 .hero-content {
   position: absolute;
-  top: 120px;           /* fixed px value from top of .hero */
+  top: 100px;           /* fixed px value from top of .hero */
   left: 50%;
   transform: translateX(-50%);  /* center horizontally only */
   z-index: 2;
