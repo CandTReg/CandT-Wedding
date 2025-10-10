@@ -234,12 +234,14 @@ header a{color:#fff;
     flex-direction: column;
   }
 
-  .hero-logo {
-    position: static;
+ .hero-logo {
+    order: 1;
     margin-bottom: 20px;
-    width: 80vw;
+    width: 75vw;
     max-width: 350px;
     height: auto;
+    position: relative; /* instead of static, to avoid layout issues */
+    z-index: 2;
   }
 
   .hero-img {
@@ -260,7 +262,7 @@ header a{color:#fff;
   .hero-logo {
     order: 1;
     margin-bottom: 20px;
-    width: 80vw;
+    width: 75vw;
     max-width: 350px;
     height: auto;
     position: relative; /* instead of static, to avoid layout issues */
