@@ -197,11 +197,11 @@ header a{color:#fff;
 /* Logo image positioned independently */
 .hero-logo {
   position: absolute;
-  top: 140px;       /* Adjust vertical position */
+  top: 120px;       /* Adjust vertical position */
   left: 50%;
   transform: translateX(-50%);
   height: auto;    /* Fixed height to prevent squish */
-  width: 70vw;
+  width: 68vw;
   max-width: 90%;
   z-index: 3;
 }
