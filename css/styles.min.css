@@ -227,10 +227,10 @@ header a{color:#fff;
 
   .hero-logo {
     position: relative; /* <- changed from absolute */
-    top: -200px;
+    top: -500px;
     left: auto;
     transform: none;
-    width: 90vw;
+    width: 70vw;
     /*max-width: 300px;
     /*margin-bottom: 20px;
     order: 0;
