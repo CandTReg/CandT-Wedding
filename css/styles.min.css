@@ -189,13 +189,12 @@ header a{color:#fff;
 
 
 .hero-img {
-  width: 100%;
-  height: auto; /* Allow proportional scaling */
-  display: block;
-  object-fit: contain; /* Ensures full image fits without cropping */
-  box-sizing: border-box; /* Includes border/padding in width/height */
-  border-radius: inherit; /* Keep it within rounded corners */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: inherit;
 }
+
 
 
 .hero-content {
