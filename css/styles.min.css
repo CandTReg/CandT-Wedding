@@ -100,7 +100,7 @@ header a{color:#fff;
 
 :root {
   --hero-padding-top: 130px;
-  --hero-padding-sides: 6.5vw;
+  --hero-padding-sides: 6vw;
   --hero-padding-bottom: 0vw;
 
   --hero-radius-top: 12px;
@@ -148,7 +148,7 @@ header a{color:#fff;
 
 .hero-bottom-fill {
   background-color: var(--hero-green);
-  height: 10vw;
+  height: 7.5vw;
   border-radius:
     0 0
     var(--hero-radius-bottom) var(--hero-radius-bottom)
