@@ -166,7 +166,7 @@ header a{color:#fff;
 }
 
 /* Super wide screens: width greater than 1600px (adjust as needed) */
-@media (min-width: 2200px) {
+@media (min-width: 3600px) {
   .hero-bottom-fill {
     height: 1vw;
   }
