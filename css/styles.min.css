@@ -226,31 +226,35 @@ header a{color:#fff;
 }
 
 @media (max-width: 767.98px) {
-  :root {
-    --hero-padding-top: 40px;
-  }
-
- .hero-inner {
+  .hero-inner {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-  }
-
-  .hero-img {
-    max-height: 160%;
-    object-fit: contain;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    position: relative;
   }
 
   .hero-logo {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative; /* <- changed from absolute */
+    top: auto;
+    left: auto;
+    transform: none;
     width: 60vw;
-    max-width: 600px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    order: 1;
+    z-index: 2;
+  }
+
+  .hero-img {
+    order: 2;
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
   }
 }
+
 
 @media (max-width: 767.98px) {
   .hero-inner {
