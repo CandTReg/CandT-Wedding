@@ -282,7 +282,7 @@ header a{color:#fff;
   }
 
   .hero-img {
-    max-height: 90%;
+    max-height: 120%;
     object-fit: contain;
   }
 
