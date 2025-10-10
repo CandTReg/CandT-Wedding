@@ -213,17 +213,7 @@ header a{color:#fff;
 
 
 
-/* Logo image positioned independently */
-.hero-logo {
-  position: absolute;
-  top: 125px;       /* Adjust vertical position */
-  left: 50%;
-  transform: translateX(-50%);
-  height: auto;    /* Fixed height to prevent squish */
-  width: 68vw;
-  max-width: 90%;
-  z-index: 3;
-}
+
 
 @media (max-width: 767.98px) {
   .hero-inner {
