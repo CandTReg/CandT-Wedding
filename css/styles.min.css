@@ -161,14 +161,14 @@ header a{color:#fff;
 /* Mobile: width less than 576px (adjust as needed) */
 @media (max-width: 575.98px) {
   .hero-bottom-fill {
-    height: 0.25vw;
+    height: 1px;
   }
 }
 
 /* Super wide screens: width greater than 1600px (adjust as needed) */
 @media (min-width: 1600px) {
   .hero-bottom-fill {
-    height: 0.5vw;
+    height: 1vw;
   }
 }
 
