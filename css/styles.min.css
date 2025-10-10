@@ -148,7 +148,7 @@ header a{color:#fff;
 
 .hero-bottom-fill {
   background-color: var(--hero-green);
-  height: 2.5vw;
+  height: 1vw;
   border-radius:
     0 0
     var(--hero-radius-bottom) var(--hero-radius-bottom)
