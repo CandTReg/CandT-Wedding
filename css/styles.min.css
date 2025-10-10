@@ -161,14 +161,14 @@ header a{color:#fff;
 /* Mobile: width less than 576px (adjust as needed) */
 @media (max-width: 575.98px) {
   .hero-bottom-fill {
-    height: 1px;
+    height: 13px;
   }
 }
 
 /* Super wide screens: width greater than 1600px (adjust as needed) */
 @media (min-width: 1600px) {
   .hero-bottom-fill {
-    height: 10px;
+    height: 15px;
   }
 }
 
@@ -244,7 +244,7 @@ header a{color:#fff;
 
   .hero-logo {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60vw;
