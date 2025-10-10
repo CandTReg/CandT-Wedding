@@ -229,6 +229,7 @@ header a{color:#fff;
     position: relative; /* <- changed from absolute */
     top: -400px;
     left: 50%;
+    transform: translate(-50%);
     transform: none;
     width: 70vw;
     /*max-width: 300px;
