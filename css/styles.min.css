@@ -148,7 +148,7 @@ header a{color:#fff;
 
 .hero-bottom-fill {
   background-color: var(--hero-green);
-  height: 1vw;
+  height: 5vw; /* Default (normal width) */
   border-radius:
     0 0
     var(--hero-radius-bottom) var(--hero-radius-bottom)
@@ -157,6 +157,21 @@ header a{color:#fff;
     var(--hero-radius-sides) var(--hero-radius-sides);
   margin-top: -1px; /* Overlap the bottom slightly to hide any gap */
 }
+
+/* Mobile: width less than 576px (adjust as needed) */
+@media (max-width: 575.98px) {
+  .hero-bottom-fill {
+    height: 0.25vw;
+  }
+}
+
+/* Super wide screens: width greater than 1600px (adjust as needed) */
+@media (min-width: 1600px) {
+  .hero-bottom-fill {
+    height: 0.5vw;
+  }
+}
+
 
 
 
