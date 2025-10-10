@@ -235,16 +235,15 @@ header a{color:#fff;
   }
 
  .hero-logo {
-    order: 1;
-    margin-bottom: 20px;
-    width: 75vw;
-    max-width: 350px;
-    height: auto;
-    position: relative; /* instead of static, to avoid layout issues */
-    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    max-width: 600px;
   }
-
   .hero-img {
+    order:2
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -259,14 +258,13 @@ header a{color:#fff;
     justify-content: flex-start;
   }
 
-  .hero-logo {
-    order: 1;
-    margin-bottom: 20px;
-    width: 75vw;
-    max-width: 350px;
-    height: auto;
-    position: relative; /* instead of static, to avoid layout issues */
-    z-index: 2;
+ .hero-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    max-width: 600px;
   }
 
   .hero-img {
