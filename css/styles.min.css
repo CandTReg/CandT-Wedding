@@ -53,7 +53,9 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 .btn-fill{
 bottom: 90.5px;
 }
-
+.member-actions {
+top:36px;
+}  
 
 .fixed{
   position:fixed; 
