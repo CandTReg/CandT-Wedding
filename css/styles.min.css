@@ -253,7 +253,11 @@ header a{color:#fff;
     justify-content: center;
     flex-direction: column;
   }
-
+  
+.btn-white btn-small {
+  right: 15px;
+}  
+  
   .hero-img {
   width: 100%;
   height: auto;
