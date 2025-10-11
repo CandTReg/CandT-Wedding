@@ -285,7 +285,11 @@ right: 40px;
     justify-content: center;
     flex-direction: column;
   }
-
+  
+.member-actions {
+right: 40px;
+}  
+  
   .hero-img {
   width: 100%;
   height: auto;
