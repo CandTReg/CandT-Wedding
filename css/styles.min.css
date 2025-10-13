@@ -226,7 +226,7 @@ header a{color:#fff;
 
   .hero-logo {
     position: relative; /* <- changed from absolute */
-    top: -375px;
+    top: 75%;
     left: 11.5%;
     transform: none;
     width: 70vw;
@@ -263,7 +263,7 @@ header a{color:#fff;
 
   .hero-logo {
     position: absolute;
-    top: 48%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60vw;
@@ -291,7 +291,7 @@ header a{color:#fff;
 
   .hero-logo {
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60vw;
