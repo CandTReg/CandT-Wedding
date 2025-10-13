@@ -226,7 +226,7 @@ header a{color:#fff;
 
   .hero-logo {
     position: relative; /* <- changed from absolute */
-    top: -325px;
+    top: -500px;
     left: 11.5%;
     transform: none;
     width: 70vw;
