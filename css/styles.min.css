@@ -367,12 +367,16 @@ header a{color:#fff;
   padding-bottom: 40px;
 }
 
-.hero-content{
+.hero-content {
     position: absolute;
-    top: 60px;
+    top: 120px; /* adjust as needed */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    z-index: 2;
 }
+
   
 .registry-heading {
   font-family: 'Cinzel Decorative', serif;
