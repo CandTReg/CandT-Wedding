@@ -361,4 +361,12 @@ header a{color:#fff;
   padding-bottom: 40px;
 }
 
-
+/* Registry heading styling */
+.registry-heading {
+  font-family: 'Playfair Display', serif; /* Or your preferred font */
+  font-size: clamp(2rem, 2.5vw, 3rem); /* Responsive size */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #154734; /* Match your theme */
+}
