@@ -357,23 +357,24 @@ header a{color:#fff;
 
 .hero.small-hero {
   position: relative;
+  z-index: 1;
   width: 100%;
-  height: 400px; /* or whatever fixed height you want */
-  background-image: url('../img/your-hero-image.jpg'); /* Replace this if you're not using img tag */
+  height: 400px; /* Instead of 60vh */
+  background-image: url('../img/your-hero-image.jpg'); /* Replace this */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
+  padding-bottom: 40px;
 }
 
 .hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
-  z-index: 2;
+    position: absolute;
+    top: 120px; /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    z-index: 2;
 }
 
   
@@ -387,4 +388,5 @@ header a{color:#fff;
   padding-top: 0; /* Optional if needed */
   color: #e2c739;
 }
+
 
