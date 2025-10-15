@@ -369,7 +369,7 @@ header a{color:#fff;
 
 .hero-content {
     position: absolute;
-    top: 50%; /* adjust as needed */
+    top: 35%; /* adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
