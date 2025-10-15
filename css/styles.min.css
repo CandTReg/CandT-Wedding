@@ -332,3 +332,20 @@ header a{color:#fff;
 .rsvp{padding-bottom:180px}
 
 }
+
+.registry-box {
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.registry-box:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+
+
