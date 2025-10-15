@@ -349,13 +349,16 @@ header a{color:#fff;
     background: #fff;
 }
 
-
 .hero.small-hero {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: auto; /* or a specific height */
+  height: 60vh; /* Adjust as needed */
+  background-image: url('../img/your-hero.jpg'); /* Use your actual path */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
 }
+
 
