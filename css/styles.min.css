@@ -368,10 +368,13 @@ header a{color:#fff;
 }
 
 .registry-heading {
-  font-family: 'Cinzel Decorative', serif; /* Or your preferred font */
-  font-size: clamp(2.5rem, 3vw, 4rem);
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(4.5rem, 5vw, 6rem);
   font-weight: 700;
   text-align: center;
+  margin-top: 0; /* Add this if heading is pushing up */
   margin-bottom: 40px;
-  color: #154734; /* Match your theme */
+  padding-top: 0; /* Optional if needed */
+  color: #154734;
 }
+
