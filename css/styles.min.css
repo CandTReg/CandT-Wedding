@@ -333,6 +333,8 @@ header a{color:#fff;
 
 }
 
+/*registry html*/
+
 .registry-box {
     padding: 30px;
     border: 1px solid #eee;
@@ -348,4 +350,12 @@ header a{color:#fff;
 }
 
 
+.hero.small-hero {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto; /* or a specific height */
+  background-size: cover;
+  background-position: center;
+}
 
