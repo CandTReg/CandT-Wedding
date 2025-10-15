@@ -369,7 +369,7 @@ header a{color:#fff;
 
 .hero-content{
     position: absolute;
-    top: 46%;
+    top: 60px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -382,6 +382,6 @@ header a{color:#fff;
   margin-top: 0; /* Add this if heading is pushing up */
   margin-bottom: 40px;
   padding-top: 0; /* Optional if needed */
-  color: #154734;
+  color: #e2c739;
 }
 
