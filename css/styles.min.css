@@ -333,7 +333,7 @@ header a{color:#fff;
 
 }
 
-/*registry html*/
+----/*registry html*/----
 
 .registry-box {
     padding: 30px;
@@ -367,14 +367,20 @@ header a{color:#fff;
   padding-bottom: 40px;
 }
 
+.hero-content{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
 .registry-heading {
   font-family: 'Cinzel Decorative', serif;
   font-size: clamp(4.5rem, 5vw, 6rem);
   font-weight: 700;
-  position: absolute;
-  bottom: 45px;
-  left: 50%;
-  transform: translateX(-50%); /* This centers it */
+  text-align: center;
+  margin-top: 0; /* Add this if heading is pushing up */
+  margin-bottom: 40px;
   padding-top: 0; /* Optional if needed */
   color: #154734;
 }
