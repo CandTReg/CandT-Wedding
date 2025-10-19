@@ -389,7 +389,7 @@ header a{color:#fff;
   color: #e2c739;
 }
 
-.lead animated fadeInUp {
+.second-msg {
   text-align: center;
   margin-top: 200px; /* Add this if heading is pushing up */
   margin-bottom: 0;
