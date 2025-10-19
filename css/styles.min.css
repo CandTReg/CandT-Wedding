@@ -390,12 +390,9 @@ header a{color:#fff;
 }
 
 .lead animated fadeInUp {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: clamp(4.5rem, 5vw, 6rem);
-  font-weight: 700;
   text-align: center;
-  margin-top: 0; /* Add this if heading is pushing up */
-  margin-bottom: 0px;
-  padding-top: 220px; /* Optional if needed */
+  margin-top: 200px; /* Add this if heading is pushing up */
+  margin-bottom: 0;
+  padding-top: 0; /* Optional if needed */
   color: #e2c739;
 }
