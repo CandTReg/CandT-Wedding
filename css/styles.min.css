@@ -396,6 +396,6 @@ header a{color:#fff;
   text-align: center;
   margin-top: 0; /* Add this if heading is pushing up */
   margin-bottom: 0px;
-  padding-top: 0; /* Optional if needed */
+  padding-top: 220px; /* Optional if needed */
   color: #e2c739;
 }
