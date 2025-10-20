@@ -214,7 +214,7 @@ header a{color:#fff;
 
 
 
-@media (max-width: 770.00px) {
+@media (max-width: 775.00px) {
   .hero-inner {
     display: flex;
     flex-direction: column;
@@ -242,6 +242,25 @@ header a{color:#fff;
     
     object-fit: contain;
   }
+
+  /* Move RSVP button higher */
+.rsvp-btn {
+  position: absolute;
+  bottom: 100px; 
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 65px;
+  left: 50%;
+  transform: translateX(-50%); /* This centers it */
+  font-size: 30px;
+  color: #fff;
+}
+  
 }
 
 
