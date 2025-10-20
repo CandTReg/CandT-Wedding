@@ -214,7 +214,7 @@ header a{color:#fff;
 
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 770.00px) {
   .hero-inner {
     display: flex;
     flex-direction: column;
@@ -226,7 +226,7 @@ header a{color:#fff;
 
   .hero-logo {
     position: relative; /* <- changed from absolute */
-    top: -525px;
+    top: -625px;
     left: 11.5%;
     transform: none;
     width: 70vw;
