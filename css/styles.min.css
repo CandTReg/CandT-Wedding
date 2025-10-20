@@ -288,6 +288,25 @@ header a{color:#fff;
     width: 60vw;
     max-width: 600px;
   }
+
+  /* Move RSVP button higher */
+.rsvp-btn {
+  position: absolute;
+  bottom: 80px; 
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%); /* This centers it */
+  font-size: 30px;
+  color: #fff;
+}
+  
 }
 
 
@@ -316,9 +335,8 @@ header a{color:#fff;
     width: 60vw;
     max-width: 600px;
   }
-}
 
-/* Move RSVP button higher */
+  /* Move RSVP button higher */
 .rsvp-btn {
   position: absolute;
   bottom: 80px; 
@@ -334,6 +352,8 @@ header a{color:#fff;
   transform: translateX(-50%); /* This centers it */
   font-size: 30px;
   color: #fff;
+}
+  
 }
 
 
