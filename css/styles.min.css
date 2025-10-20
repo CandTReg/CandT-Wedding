@@ -246,7 +246,7 @@ header a{color:#fff;
   /* Move RSVP button higher */
 .rsvp-btn {
   position: absolute;
-  bottom: 100px; 
+  bottom: 120px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -254,7 +254,7 @@ header a{color:#fff;
 
 .down-arrow {
   position: absolute;
-  bottom: 65px;
+  bottom: 85px;
   left: 50%;
   transform: translateX(-50%); /* This centers it */
   font-size: 30px;
@@ -430,6 +430,7 @@ header a{color:#fff;
 
 .second-msg {
   font-weight: 700;
+  width: 90vw;
   text-align: center;
   margin-top: 250px; /* Add this if heading is pushing up */
   margin-bottom: 0;
