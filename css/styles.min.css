@@ -424,6 +424,7 @@ header a{color:#fff;
   text-align: center;
   margin-top: 0; /* Add this if heading is pushing up */
   margin-bottom: 40px;
+  margin-sides: 200px;
   padding-top: 0; /* Optional if needed */
   color: #e2c739;
 }
