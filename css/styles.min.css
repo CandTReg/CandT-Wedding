@@ -430,9 +430,9 @@ header a{color:#fff;
 
 .second-msg {
   font-weight: 700;
-  width: 90vw;
   text-align: center;
   margin-top: 250px; /* Add this if heading is pushing up */
   margin-bottom: 0;
+  margin-sides: 20px;
   padding-top: 0; /* Optional if needed */
 }
