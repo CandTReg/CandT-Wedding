@@ -383,7 +383,8 @@ header a{color:#fff;
   -webkit-border-radius:5px;
   border-radius:5px;
   border:solid 1px #e6e9ea;
-  text-align:left;position:relative
+  text-align:left;
+  position:relative;
 }
 .rsvp .rsvp-form .form-input-group i{
   color:#e8ca6f;
@@ -396,14 +397,14 @@ header a{color:#fff;
   border-right:solid 1px #e6e9ea;
   position:absolute;
   top:125%;left:30px;
-  transform:translateY(-50%)
+  transform:translateY(-50%);
 }
 .rsvp .rsvp-form .form-input-group i.fa-user,.rsvp .rsvp-form .form-input-group i.fa-cutlery,.rsvp .rsvp-form .form-input-group i.fa-envelope,.rsvp .rsvp-form .form-input-group .fa-key{
   font-size:14px;
   position:absolute;
   top:50%;
   transform:translateY(-50%);
-  margin-left:20px
+  margin-left:20px;
 }
 .rsvp .rsvp-form .form-input-group input{
   padding-left:68px;
@@ -411,11 +412,11 @@ header a{color:#fff;
   height:100%;
   -moz-border-radius:6px;
   -webkit-border-radius:6px;
-  border-radius:6px;border:none
+  border-radius:6px;border:none;
 }
 .rsvp .rsvp-form .form-input-group input::-webkit-input-placeholder{color:#bcc1c3}.rsvp .rsvp-form .form-input-group input:-moz-placeholder{color:#bcc1c3}.rsvp .rsvp-form .form-input-group input::-moz-placeholder{color:#bcc1c3}.rsvp .rsvp-form .form-input-group input:-ms-input-placeholder{color:#bcc1c3}footer .content{
   border-top:1px solid #e6e9ea;
-  padding-bottom:20px
+  padding-bottom:20px;
 }
 
 
