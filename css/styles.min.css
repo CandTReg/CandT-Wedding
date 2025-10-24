@@ -372,6 +372,18 @@ header a{color:#fff;
 
 }
 
+
+/*---- RSVP ----*/
+
+.rsvp .rsvp-form .form-input-group i.fa-cutlery {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+
+
+
 ----/*registry html*/----
 
 .registry-box {
