@@ -382,6 +382,50 @@ header a{color:#fff;
     margin-left: 20px;
 }
 
+.rsvp .rsvp-form .form-input-group {
+  width: 100%;
+  height: 55px;
+  margin: 0 auto 15px; /* give a bit more vertical spacing */
+  border: solid 1px #e6e9ea;
+  border-radius: 5px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center; /* vertically center contents */
+}
+
+/* --- Keep the same icon positioning for consistency --- */
+.rsvp .rsvp-form .form-input-group i {
+  color: #e8ca6f;
+  font-size: 14px;
+  margin-left: 20px;
+  min-width: 30px; /* keeps input spacing consistent */
+  text-align: center;
+}
+
+/* --- Optional divider line next to icons --- */
+.rsvp .rsvp-form .form-input-group i::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  height: 30px;
+  border-right: 1px solid #e6e9ea;
+}
+
+/* --- Inputs vertically centered, consistent padding --- */
+.rsvp .rsvp-form .form-input-group input {
+  flex: 1; /* fill remaining space */
+  height: 100%;
+  padding-left: 68px; /* room for icon + divider */
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: normal;
+  background: transparent;
+}
+
 
 
 ----/*registry html*/----
