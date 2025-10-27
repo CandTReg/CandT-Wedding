@@ -100,7 +100,7 @@ footer .content{border-top:1px solid #e6e9ea;padding-bottom:20px}footer .to-top-
 
 /* Limit the page width and center it */
 .page-wrapper {
-  max-width: 1400px; /* adjust to your preference (e.g., 1200px, 1440px) */
+  max-width: 1600px; /* adjust to your preference (e.g., 1200px, 1440px) */
   margin: 0 auto;
   background: #ffffff; /* main content background */
   box-shadow: 0 0 40px rgba(10, 0, 0, 0.05); /* optional subtle shadow */
