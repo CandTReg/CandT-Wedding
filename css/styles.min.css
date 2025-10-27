@@ -432,6 +432,10 @@ header a{color:#fff;
 }
 
 
+.hwm-text {
+  display: flex;
+  justify-content: center;
+}
 
 
 
