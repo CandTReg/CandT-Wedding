@@ -97,6 +97,21 @@ p{font-size:15px;line-height:29px;color:rgba(28,54,83,.6);
 
 footer .content{border-top:1px solid #e6e9ea;padding-bottom:20px}footer .to-top-wrapper{font-size:30px;display:block;cursor:pointer;margin:-25px auto 50px;border-radius:50%;width:50px;height:50px;border:1px solid #e6e9ea;background:#fff}footer .to-top-wrapper .to-top{display:block;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}footer .to-top-wrapper .to-top:hover{margin-top:-5px}footer span.fa-heart{color:#ff415c;font-size:18px;margin:0 2px}body.modal-open{padding-right:0 !important}.modal-body{padding:25px}
 
+
+/* Limit the page width and center it */
+.page-wrapper {
+  max-width: 1400px; /* adjust to your preference (e.g., 1200px, 1440px) */
+  margin: 0 auto;
+  background: #ffffff; /* main content background */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05); /* optional subtle shadow */
+}
+
+/* Set the background color for the rest of the viewport */
+body {
+  background-color: #f5f5f5; /* dull gray or beige background */
+}
+
+
 .btn-fill{
 bottom: 90.5px;
 }
