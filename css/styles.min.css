@@ -111,7 +111,7 @@ footer .content{border-top:1px solid #e6e9ea;padding-bottom:20px}footer .to-top-
 body {
   background-color: #f8e7c7; /* soft champagne beige */
   background-image: radial-gradient(circle at top left, #f9efd7, #f7e0b5);
-  padding: 5px; /* gives breathing room around the centered box */
+  padding: 0px; /* gives breathing room around the centered box */
 }
 
 
