@@ -291,12 +291,6 @@ header a{color:#fff;
 
 @media (max-width: 779.98px) {
   
-  .header-content{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
   .hero-inner {
     display: flex;
     flex-direction: column;
@@ -347,6 +341,13 @@ header a{color:#fff;
 
 
 @media (min-width: 780px) and (max-width: 1599px) {
+
+  .header-content{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
   .hero-inner {
     display: flex;
     align-items: center;
