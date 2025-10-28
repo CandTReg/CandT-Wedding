@@ -290,6 +290,12 @@ header a{color:#fff;
 
 
 @media (max-width: 779.98px) {
+  
+  .header-content{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
   .hero-inner {
     display: flex;
     flex-direction: column;
