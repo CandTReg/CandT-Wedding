@@ -121,6 +121,10 @@ body {
 bottom: 90.5px;
 }
 
+.header-content{
+  max-width: 1600px;
+}
+
 .fixed{
   position:fixed;  
   max-width: 1600px;  
