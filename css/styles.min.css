@@ -103,7 +103,7 @@ footer .content{border-top:1px solid #e6e9ea;padding-bottom:20px}footer .to-top-
   max-width: 1600px;
   margin: 0 auto;
   background: #fffaf0; /* light ivory/white-champagne base */
-  box-shadow: 0 0 5px rgba(80, 60, 20, 0.2);
+  box-shadow: 0 0 40px rgba(80, 60, 20, 0.2);
   border-radius: 12px;
 }
 
@@ -111,7 +111,7 @@ footer .content{border-top:1px solid #e6e9ea;padding-bottom:20px}footer .to-top-
 body {
   background-color: #f8e7c7; /* soft champagne beige */
   background-image: radial-gradient(circle at top left, #f9efd7, #f7e0b5);
-  padding: 20px; /* gives breathing room around the centered box */
+  padding: 5px; /* gives breathing room around the centered box */
 }
 
 
