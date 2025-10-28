@@ -343,7 +343,6 @@ header a{color:#fff;
 @media (min-width: 780px) and (max-width: 1599px) {
 
   .header-content{
-    position: absolute;
     width: 80%;
   }
   
