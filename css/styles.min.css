@@ -152,7 +152,7 @@ header a{color:#fff;
   left:-10px;
   height:40px}
 .navicon {
-  position: absolute;
+  position: relative;
   top: 42px;
   right: 10px;
   
