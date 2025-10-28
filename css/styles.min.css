@@ -122,7 +122,9 @@ bottom: 90.5px;
 }
 
 .fixed{
-  position:fixed; 
+  position:fixed;
+  left: 50%;
+  transform: translateX(-50%);
   background-color:rgba(226, 199, 57, 0.88);
   z-index:999;
   width:100%
