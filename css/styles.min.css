@@ -292,6 +292,7 @@ header a{color:#fff;
 @media (max-width: 779.98px) {
   
   .header-content{
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
