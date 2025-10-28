@@ -345,8 +345,6 @@ header a{color:#fff;
   .header-content{
     position: absolute;
     width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
   }
   
   .hero-inner {
