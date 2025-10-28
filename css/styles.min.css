@@ -291,8 +291,8 @@ header a{color:#fff;
 
 @media (max-width: 779.98px) {
 
-  .header-content{
-  right: 30px;
+  .logo{
+  right: -30px;
   }  
   
   .hero-inner {
