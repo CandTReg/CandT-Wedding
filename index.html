@@ -233,10 +233,14 @@
   <div class="container text-center">
     <h3>A picture is worth a thousand words!</h3>
     <p>Help us capture the moment — upload your photos or videos below!</p>
-    <a href="https://drive.google.com/drive/folders/YOUR_FOLDER_ID?usp=sharing"
-       target="_blank" class="btn btn-accent btn-large">
-       <i class="fa fa-cloud-upload"></i> Upload to Google Drive
-    </a>
+
+    <!-- Embedded Google Drive folder view -->
+    <iframe src="https://drive.google.com/embeddedfolderview?id=YOUR_FOLDER_ID#grid"
+            style="width:100%; height:600px; border:none;"></iframe>
+
+    <p style="margin-top:1em; font-style:italic;">
+      Click the <strong>+ icon</strong> in the top right to upload your files.
+    </p>
   </div>
 </section>
 
