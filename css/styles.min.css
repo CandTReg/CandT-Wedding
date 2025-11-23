@@ -519,3 +519,20 @@ header a{color:#fff;
   padding-top: 0; /* Optional if needed */
   color: #e2c739;
 }
+/* Mobile-specific adjustments */
+@media (max-width: 600px) {
+  .registry-heading {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(4.5rem, 5vw, 6rem);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px; /* Add this if heading is pushing up */
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 0; /* Optional if needed */
+    color: #e2c739;
+  }
+}
+
+
