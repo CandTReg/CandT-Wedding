@@ -129,7 +129,7 @@ bottom: 90.5px;
 .fixed{
   position:fixed;  
   max-width: 1600px;  
-  background-color:rgba(226, 199, 57, 0.88);
+  background-color:rgba(226, 199, 57, 0.08);
   z-index:999;
   width:100%
 }
