@@ -535,4 +535,76 @@ header a{color:#fff;
   }
 }
 
+----/*Party html*/----
+
+.registry-box {
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+#registry-options {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+
+.registry-box:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.hero.small-hero {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 400px; /* Instead of 60vh */
+  background-image: url('../img/your-hero-image.jpg'); /* Replace this */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 35%; /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+  
+.party-heading {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(4.5rem, 5vw, 6rem);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0; /* Add this if heading is pushing up */
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 0; /* Optional if needed */
+  color: #e2c739;
+}
+/* Mobile-specific adjustments */
+@media (max-width: 600px) {
+  .party-heading {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(4.5rem, 5vw, 6rem);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px; /* Add this if heading is pushing up */
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 0; /* Optional if needed */
+    color: #e2c739;
+  }
+}
 
