@@ -609,25 +609,29 @@ header a{color:#fff;
   }
 }
 
-/* 1. The main pop-up container (Modal Backdrop) */
+/* 1. The main pop-up container (Modal Backdrop) - HIGH SPECIFICITY */
 .css-popup {
-    position: fixed;
+    /* CRITICAL FIXES FOR VISIBILITY AND LAYERING */
+    position: fixed !important; 
+    z-index: 9999 !important; /* Ensures it is on top of ALL other elements */
+
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    
     background: rgba(0, 0, 0, 0.9); /* Dark overlay */
     visibility: hidden; /* Hidden by default */
     opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1050; /* Ensure it is on top of everything */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Ensure both transition */
     overflow-y: auto; /* Allows scrolling if content is tall */
 }
 
-/* 2. Show the pop-up when the URL hash targets its ID */
-.css-popup:target {
-    visibility: visible;
-    opacity: 1;
+/* 2. Show the pop-up when the URL hash targets its ID - ULTRA SPECIFIC */
+/* By including the parent section ID, we make this rule extremely powerful */
+#wedding-party .css-popup:target {
+    visibility: visible !important; /* FORCED VISIBILITY */
+    opacity: 1 !important; /* FORCED OPACITY */
 }
 
 /* 3. The content box inside the pop-up */
@@ -635,14 +639,17 @@ header a{color:#fff;
     background: #fff;
     padding: 30px;
     position: relative;
-    margin: 5% auto; /* Center it vertically/horizontally */
+    /* This centering trick helps ensure it appears in the center of the viewport */
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 5% auto; 
     max-width: 90%;
     width: 600px;
     border-radius: 5px;
     text-align: center;
 }
 
-/* 4. Full-size image within the pop-up */
+/* 4. Full-size image within the pop-up (No change) */
 .css-popup-content .full-size-img {
     max-width: 100%;
     height: auto;
@@ -651,7 +658,7 @@ header a{color:#fff;
     border-radius: 5px;
 }
 
-/* 5. Close button (X) */
+/* 5. Close button (X) (No change) */
 .css-popup-close {
     position: absolute;
     top: 10px;
@@ -663,12 +670,12 @@ header a{color:#fff;
     line-height: 1;
 }
 
-/* Optional: Make the small circle images look clickable */
+/* Optional: Make the small circle images look clickable (No change) */
 .registry-box a {
     cursor: zoom-in;
 }
 
-/* Optional: Make the pop-up fade out when closing */
+/* Optional: Make the pop-up fade out when closing (No change) */
 .css-popup-close:hover {
     color: #ff0000;
 }
