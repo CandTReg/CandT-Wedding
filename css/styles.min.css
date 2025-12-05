@@ -600,11 +600,11 @@ header a{color:#fff;
     font-weight: 700;
     text-align: center;
     margin-top: 5px; /* Add this if heading is pushing up */
-    margin-bottom: 600px;
+    margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 0; /* Optional if needed */
-    padding-bottom: 0;
+    padding-bottom: 10px;
     color: #e2c739;
   }
 }
