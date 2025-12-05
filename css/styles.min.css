@@ -599,11 +599,12 @@ header a{color:#fff;
     font-size: clamp(4.5rem, 5vw, 6rem);
     font-weight: 700;
     text-align: center;
-    margin-top: 10px; /* Add this if heading is pushing up */
-    margin-bottom: 60px;
+    margin-top: 5px; /* Add this if heading is pushing up */
+    margin-bottom: 600px;
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 0; /* Optional if needed */
+    padding-bottom: 0;
     color: #e2c739;
   }
 }
