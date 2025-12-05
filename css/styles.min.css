@@ -609,54 +609,66 @@ header a{color:#fff;
   }
 }
 
-.section-padding {
-  padding: 40px 0;
+/* 1. The main pop-up container (Modal Backdrop) */
+.css-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Dark overlay */
+    visibility: hidden; /* Hidden by default */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1050; /* Ensure it is on top of everything */
+    overflow-y: auto; /* Allows scrolling if content is tall */
 }
 
-/* Thumbnail images */
-.thumb {
-  width: 150px;
-  height: 150px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+/* 2. Show the pop-up when the URL hash targets its ID */
+.css-popup:target {
+    visibility: visible;
+    opacity: 1;
 }
 
-.thumb:hover {
-  transform: scale(1.05);
+/* 3. The content box inside the pop-up */
+.css-popup-content {
+    background: #fff;
+    padding: 30px;
+    position: relative;
+    margin: 5% auto; /* Center it vertically/horizontally */
+    max-width: 90%;
+    width: 600px;
+    border-radius: 5px;
+    text-align: center;
 }
 
-/* Lightbox styling */
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.8);
-  text-align: center;
+/* 4. Full-size image within the pop-up */
+.css-popup-content .full-size-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 
-.lightbox img {
-  max-width: 90%;
-  max-height: 80%;
-  margin-top: 5%;
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+/* 5. Close button (X) */
+.css-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    line-height: 1;
 }
 
-.lightbox:target {
-  display: block;
+/* Optional: Make the small circle images look clickable */
+.registry-box a {
+    cursor: zoom-in;
 }
 
-.lightbox .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: bold;
+/* Optional: Make the pop-up fade out when closing */
+.css-popup-close:hover {
+    color: #ff0000;
 }
-
-
-
